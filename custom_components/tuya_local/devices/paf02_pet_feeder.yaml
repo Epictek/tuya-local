@@ -1,7 +1,7 @@
-name: Linus PAF-02 pet feeder
+name: PAF-02 pet feeder
 products:
   - id: go142kwowvlxvmmn
-    manufacturer: Linus
+    manufacturer: petempo 
     model: PAF-02
 entities:
   - entity: button
@@ -68,7 +68,8 @@ entities:
         name: sensor
         unit: portions
   - entity: switch
-    translation_key: indicator
+    name: display
+    icon: "mdi:light-switch"
     category: config
     dps:
       - id: 17
