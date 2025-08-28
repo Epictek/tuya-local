@@ -24,7 +24,7 @@ entities:
         unit: portions
         range:
           min: 1
-          max: 60
+          max: 6
   - entity: sensor
     class: enum
     translation_key: status
